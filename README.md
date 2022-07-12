@@ -18,6 +18,7 @@ support for multiple versions at runtime:
 
 # example
 
+- **#include "sdk.hpp"**
 - std::string str = **g_samp->pools()->player_pool()->get_local_player_name()**;    
 - float a = **g_samp->pools()->player_pool()->remote_player(id)->get_health()**;    
 - int b = **g_samp->pools()->pickup_pool()->pickup_info(id)->get_model()**;    
